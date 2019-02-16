@@ -33,6 +33,10 @@ def update
 	end
 end
 
+def index
+	@todos = Todo.all
+end
+
 
 
 private
